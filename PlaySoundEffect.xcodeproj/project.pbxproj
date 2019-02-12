@@ -12,6 +12,7 @@
 		02FDC5922212967B00787661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FDC5902212967B00787661 /* Main.storyboard */; };
 		02FDC5942212967D00787661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FDC5932212967D00787661 /* Assets.xcassets */; };
 		02FDC5972212967D00787661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FDC5952212967D00787661 /* LaunchScreen.storyboard */; };
+		02FDC5A122129CC200787661 /* resultVCSoundEffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 02FDC5A022129CC200787661 /* resultVCSoundEffect.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		02FDC5932212967D00787661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02FDC5962212967D00787661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02FDC5982212967D00787661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FDC5A022129CC200787661 /* resultVCSoundEffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = resultVCSoundEffect.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				02FDC58C2212967B00787661 /* AppDelegate.swift */,
+				02FDC5A222129E7500787661 /* Sounds */,
 				02FDC58E2212967B00787661 /* ViewController.swift */,
 				02FDC5902212967B00787661 /* Main.storyboard */,
 				02FDC5932212967D00787661 /* Assets.xcassets */,
@@ -62,6 +65,14 @@
 				02FDC5982212967D00787661 /* Info.plist */,
 			);
 			path = PlaySoundEffect;
+			sourceTree = "<group>";
+		};
+		02FDC5A222129E7500787661 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				02FDC5A022129CC200787661 /* resultVCSoundEffect.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FDC5972212967D00787661 /* LaunchScreen.storyboard in Resources */,
+				02FDC5A122129CC200787661 /* resultVCSoundEffect.wav in Resources */,
 				02FDC5942212967D00787661 /* Assets.xcassets in Resources */,
 				02FDC5922212967B00787661 /* Main.storyboard in Resources */,
 			);
